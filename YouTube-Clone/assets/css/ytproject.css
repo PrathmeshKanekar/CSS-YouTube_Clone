@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    background-color: rgb(29, 29, 29);
+}
+header{
+    display: flex;
+}
+#menuicon{
+    color: white;
+    margin: 15px 5px 10px 25px;
+    font-size: 30px;
+    cursor: pointer;
+}
+header img{
+    width: 150px;
+    height: 45px;
+    margin: 5PX 10px 10px 5px;
+    
+}
+header input{
+    width: 610px;
+    height: 40px;
+    margin: 10px 140px;
+    padding: 10px;
+    color: white;
+    border: 1px solid;
+    border-radius: 15px;
+}
+#voiceicon{
+    color: white;
+    margin: 10px -135px;
+    padding: 6px;
+    font-size: 30px;
+    cursor: pointer;
+}
+#createicon{
+    color: white;
+    margin: 10px 20px 10px 310px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 30px;
+}
+#notiicon{
+    color: white;
+    margin: 10px 20px 10px 1px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 30px;
+}
+#accicon{
+    color: white;
+    margin: 10px 20px 10px 1px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.navigation{
+    display: flex;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 10px 10px 20px;
+    /* font-size: 20px; */
+}
+nav{
+    flex: 1;
+    margin: 0;
+}
+ul li{
+    /* margin: 10px 10px 10px 0; */
+    padding: 10px;
+}
+
+ul li a{
+    color:white;
+    text-decoration: none;
+    /* padding: 10px; */
+}
+nav li a:hover{
+    background-color: aqua;
+}
+nav span{
+    padding: 12px 10px;
+    margin: 0 10px 0 0;
+    font-size: 30px;
+}
+/* nav a:hover, nav span:hover{
+    background-color: aqua;
+} */
+/* nav li:hover,nav span:hover{
+    background-color: rgb(67, 67, 67);
+
+}
+.navhov:hover{
+    background-color: rgb(67, 67, 67);
+} */
+
+section{
+    position: relative;
+    flex: 5;
+    margin: 10px;
+    height: 100px;
+}
+section a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(54, 54, 54);
+    padding: 7px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.hypr{
+    color: black;
+}
+section a:hover{
+    background-color: white;
+    color: rgb(54, 54, 54);
+}
+article{
+    position: absolute;
+    top: 100px;
+    left: 215px;
+}
+article .iframe{
+    position: relative;
+    top: 0px;    
+      
+    overflow: auto;
+
+}
+article iframe{
+    width: 1135px;
+    height: 525px;
+}
